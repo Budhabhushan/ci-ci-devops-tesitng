@@ -1,5 +1,5 @@
 name: Validate Files
-on: push
+on: workflow_dispatch
 
 jobs:
   validate-files:
