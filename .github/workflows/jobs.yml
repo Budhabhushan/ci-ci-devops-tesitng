@@ -1,5 +1,9 @@
 name: Job Tests
-on: push
+on:
+  workflow_run:
+    workflows: ["Basic UI"]
+    types:
+      - completed
 
 jobs:
   validate-html:
