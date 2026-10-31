@@ -1,9 +1,10 @@
 name: Job Tests
 on:
-  workflow_run:
-    workflows: ["Basic UI"]
-    types:
-      - completed
+  workflow_dispatch
+  # workflow_run:
+  #   workflows: ["Basic UI"]
+  #   types:
+  #     - completed
 
 jobs:
   validate-html:
