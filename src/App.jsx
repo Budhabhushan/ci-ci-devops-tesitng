@@ -1,13 +1,11 @@
-import { useState } from "react";
-import heroImg from "./assets/hero.png";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>Vite + React </h1>
+      <h1>Budhabhushan CI/CD Actions</h1>
+      <h2>React Application</h2>
+      <h3>Testing with vercel</h3>
     </>
   );
 }
