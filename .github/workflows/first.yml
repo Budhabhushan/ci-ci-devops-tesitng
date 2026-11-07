@@ -1,5 +1,11 @@
 name: "First Workflow"
-on: push
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+      - dev
+      - qa
 jobs:
   first-job:
     runs-on: ubuntu-latest
