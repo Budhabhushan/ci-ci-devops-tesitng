@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <h2>React github actions</h2>
+      <h2>React CI CD Actions</h2>
     </>
   );
 }
